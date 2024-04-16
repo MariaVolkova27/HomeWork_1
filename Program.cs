@@ -9,7 +9,7 @@ namespace HomeWork_1
         {
             if (args.Length == 3)
             {
-                if (int.TryParse(args[0], out int num1) && int.TryParse(args[2], out int num2))
+                if (double.TryParse(args[0], out double num1) && double.TryParse(args[2], out double num2))
                 {
                     double result = 0;
                     switch (args[1])
